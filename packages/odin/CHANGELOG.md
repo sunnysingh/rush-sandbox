@@ -1,6 +1,13 @@
 # Change Log - @rush-sandbox/odin
 
-This log was last generated on Fri, 01 Apr 2022 18:00:52 GMT and should not be manually modified.
+This log was last generated on Fri, 01 Apr 2022 19:37:16 GMT and should not be manually modified.
+
+## 2.1.0
+Fri, 01 Apr 2022 19:37:16 GMT
+
+### Minor changes
+
+- x4 update
 
 ## 1.0.1
 Fri, 01 Apr 2022 18:00:52 GMT
