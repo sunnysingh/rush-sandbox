@@ -29,11 +29,13 @@
   "projects": [
     {
       "packageName": "@sunnysingh/rush-sandbox-odin",
-      "projectFolder": "packages/odin"
+      "projectFolder": "packages/odin",
+      "shouldPublish": true
     },
     {
       "packageName": "@sunnysingh/rush-sandbox-thor",
-      "projectFolder": "packages/thor"
+      "projectFolder": "packages/thor",
+      "shouldPublish": true
     }
   ]
 }
