@@ -1,8 +1,7 @@
 [
   {
     "policyName": "odin",
-    "definitionName": "lockStepVersion",
-    "version": "2.0.0-rc.2",
-    "nextBump": "prerelease"
+    "definitionName": "individualVersion",
+    "lockedMajor": 2
   }
 ]
