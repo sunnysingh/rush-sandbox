@@ -23,4 +23,5 @@ jobs:
       - name: Link Dependencies
         run: node common/scripts/install-run-rush.js link
       - name: Check Changes
+        if: ${{ github.event_name == 'push' && !startsWith(github.ref, 'refs/heads/next') }}
         run: node common/scripts/install-run-rush.js change --verify --no-fetch
