@@ -4,13 +4,13 @@
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
-    "@rush-temp/rush-sandbox-odin": {
-      "version": "file:projects/rush-sandbox-odin.tgz",
-      "integrity": "sha512-Wij7awdd6jh7/nNct/C7fUdUEm0z39Loj7/yj3vuQ9+yaQxFUK4ImEzZi9cmz9K0tGFK9Ad76k/WMUlvN66jvA=="
+    "@rush-temp/odin": {
+      "version": "file:projects/odin.tgz",
+      "integrity": "sha512-juDBHQG/yNl4Z5bzRT9IDb0sxFgBW4snZV49POSE7BshObxMVhKMRmdjjbK32zsTPHhcUQJ+0NbEwzdyn5hQfQ=="
     },
-    "@rush-temp/rush-sandbox-thor": {
-      "version": "file:projects/rush-sandbox-thor.tgz",
-      "integrity": "sha512-NNsTa2PwqnHqAJOL0Ig4PNF9VQhQo72sNhvyTZNdhEhB77mupFnkxqXYdtkqqP6UO5jphVpBBjdgZzRCO0G1/w=="
+    "@rush-temp/thor": {
+      "version": "file:projects/thor.tgz",
+      "integrity": "sha512-c4mrY5JIWZGdprstIM45VICEaCE4iJzAw4X+IJ1G1BV5jXBLZM5P6I2GmG+uZLXWRmBa8lMygNFpo5Aqt3zYLQ=="
     }
   }
 }
