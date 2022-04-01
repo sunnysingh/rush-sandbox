@@ -15,7 +15,7 @@
     "changeLogUpdateCommitMessage": "Update changelogs [skip ci]"
   },
   "repository": {
-    "url": "https://github.com/sunnysingh/rush-sandbox",
+    "url": "git@github.com:sunnysingh/rush-sandbox.git",
     "defaultBranch": "main",
     "defaultRemote": "origin"
   },
