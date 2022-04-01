@@ -27,7 +27,7 @@ jobs:
       - name: Link Dependencies
         run: node common/scripts/install-run-rush.js link
       - name: Bump Versions
-        run: node common/scripts/install-run-rush.js version --bump
+        run: node common/scripts/install-run-rush.js version --bump --target-branch ${{ github.ref_name }
       - name: Publish Latest
         if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main') }}
         run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch main --add-commit-details --apply --publish --include-all
