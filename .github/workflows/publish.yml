@@ -27,7 +27,7 @@ jobs:
       - name: Link Dependencies
         run: node common/scripts/install-run-rush.js link
       - name: Bump Versions
-        run: node common/scripts/install-run-rush.js version --bump
+        run: node common/scripts/install-run-rush.js version --bump --target-branch ${{ github.ref_name }}
       - name: Publish Latest
         if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main') }}
         run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch main --add-commit-details --apply --publish --include-all
@@ -35,6 +35,6 @@ jobs:
           NPM_AUTH_TOKEN: '${{ secrets.NPM_PUBLISH_TOKEN }}'
       - name: Publish Next
         if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/next') }}
-        run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch ${{ github.ref_name }} --add-commit-details --apply --publish --include-all --tag next
+        run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch ${{ github.ref_name }} --add-commit-details --apply --publish --include-all --tag next --prerelease-name rc --partial-prerelease
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
