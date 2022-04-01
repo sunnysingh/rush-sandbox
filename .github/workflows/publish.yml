@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - next/**
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -25,15 +26,15 @@ jobs:
         run: node common/scripts/install-run-rush.js install --no-link
       - name: Link Dependencies
         run: node common/scripts/install-run-rush.js link
-      - name: Check Changes
-        run: node common/scripts/install-run-rush.js change --verify
+      - name: Bump Versions
+        run: node common/scripts/install-run-rush.js version --bump
       - name: Publish Latest
         if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main') }}
-        run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch main --add-commit-details --apply --publish
+        run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch main --add-commit-details --apply --publish --include-all
         env:
           NPM_AUTH_TOKEN: '${{ secrets.NPM_PUBLISH_TOKEN }}'
       - name: Publish Next
         if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/next') }}
-        run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch next --add-commit-details --apply --publish --tag next
+        run: node common/scripts/install-run-rush.js publish --set-access-level public --target-branch ${{ github.ref_name }} --add-commit-details --apply --publish --include-all --tag next
         env:
-          NPM_AUTH_TOKEN: ${{ secrets.GH_ACTIONS_PAT }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
