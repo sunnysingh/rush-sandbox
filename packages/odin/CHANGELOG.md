@@ -1,9 +1,15 @@
 # Change Log - @rush-sandbox/odin
 
-This log was last generated on Fri, 01 Apr 2022 19:45:10 GMT and should not be manually modified.
+This log was last generated on Fri, 01 Apr 2022 20:29:40 GMT and should not be manually modified.
+
+## 2.3.0
+Fri, 01 Apr 2022 20:29:40 GMT
+
+### Minor changes
+
+- main update for v2
 
 ## 2.2.0
-
 Fri, 01 Apr 2022 19:55:51 GMT
 
 ### Minor changes
@@ -11,7 +17,6 @@ Fri, 01 Apr 2022 19:55:51 GMT
 - v2 update
 
 ## 2.1.0
-
 Fri, 01 Apr 2022 19:37:16 GMT
 
 ### Minor changes
@@ -19,7 +24,6 @@ Fri, 01 Apr 2022 19:37:16 GMT
 - x4 update
 
 ## 1.2.0
-
 Fri, 01 Apr 2022 19:45:10 GMT
 
 ### Minor changes
@@ -27,7 +31,6 @@ Fri, 01 Apr 2022 19:45:10 GMT
 - update odin v2 x2
 
 ## 1.1.0
-
 Fri, 01 Apr 2022 19:42:52 GMT
 
 ### Minor changes
@@ -35,7 +38,6 @@ Fri, 01 Apr 2022 19:42:52 GMT
 - v1 update
 
 ## 1.0.1
-
 Fri, 01 Apr 2022 18:00:52 GMT
 
 ### Patches
@@ -43,9 +45,9 @@ Fri, 01 Apr 2022 18:00:52 GMT
 - Update
 
 ## 1.0.0
-
 Fri, 01 Apr 2022 17:55:16 GMT
 
 ### Breaking changes
 
 - New Package
+
