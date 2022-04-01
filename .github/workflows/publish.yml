@@ -1,0 +1,27 @@
+name: Publish
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Read .nvmrc
+        id: node_version
+        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ steps.node_version.outputs.NODE_VERSION }}
+      - name: Install Dependencies
+        run: node common/scripts/install-run-rush.js install --no-link
+      - name: Link Dependencies
+        run: node common/scripts/install-run-rush.js link
+      - name: Check Changes
+        run: node common/scripts/install-run-rush.js change --verify
+      - name: Publish
+        run: node common/scripts/install-run-rush.js publish --target-branch main --add-commit-details --apply --publish
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
