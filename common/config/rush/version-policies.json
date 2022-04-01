@@ -2,6 +2,7 @@
   {
     "policyName": "odin",
     "definitionName": "individualVersion",
-    "lockedMajor": 1
+    "version": "2.0.0",
+    "nextBump": "prerelease"
   }
 ]
