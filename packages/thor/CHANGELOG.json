@@ -1,0 +1,19 @@
+{
+  "name": "@sunnysingh/rush-sandbox-thor",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@sunnysingh/rush-sandbox-thor_v1.0.0",
+      "date": "Fri, 01 Apr 2022 17:12:21 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "New Package",
+            "author": "Sunny Singh <sunny@nomadhealth.com>",
+            "commit": "c9fc90333144053df1fc9dca061049c0b927455c"
+          }
+        ]
+      }
+    }
+  ]
+}
