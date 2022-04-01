@@ -1,6 +1,6 @@
 {
   "name": "@rush-sandbox/thor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rush Sandbox Package",
   "main": "index.js",
   "scripts": {},

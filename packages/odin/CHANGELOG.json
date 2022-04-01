@@ -2,6 +2,20 @@
   "name": "@rush-sandbox/odin",
   "entries": [
     {
+      "version": "1.0.1",
+      "tag": "@rush-sandbox/odin_v1.0.1",
+      "date": "Fri, 01 Apr 2022 18:00:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update",
+            "author": "Sunny Singh <sunny@nomadhealth.com>",
+            "commit": "8caf6c6e69b35a8bd3423d250f7fdb3a5d413fda"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.0",
       "tag": "@rush-sandbox/odin_v1.0.0",
       "date": "Fri, 01 Apr 2022 17:55:16 GMT",
