@@ -1,5 +1,5 @@
 {
-  "name": "@sunnysingh/rush-sandbox-odin",
+  "name": "@rush-sandbox/odin",
   "version": "0.0.0",
   "description": "Rush Sandbox Package",
   "main": "index.js",

@@ -28,12 +28,12 @@
   "telemetryEnabled": false,
   "projects": [
     {
-      "packageName": "@sunnysingh/rush-sandbox-odin",
+      "packageName": "@rush-sandbox/odin",
       "projectFolder": "packages/odin",
       "shouldPublish": true
     },
     {
-      "packageName": "@sunnysingh/rush-sandbox-thor",
+      "packageName": "@rush-sandbox/thor",
       "projectFolder": "packages/thor",
       "shouldPublish": true
     }

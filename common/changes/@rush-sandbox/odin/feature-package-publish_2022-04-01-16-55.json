@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-sandbox/odin",
+      "comment": "New Package",
+      "type": "major"
+    }
+  ],
+  "packageName": "@rush-sandbox/odin"
+}
