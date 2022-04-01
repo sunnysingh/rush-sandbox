@@ -1,0 +1,26 @@
+name: Test
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Read .nvmrc
+        id: node_version
+        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ steps.node_version.outputs.NODE_VERSION }}
+      - name: Install Dependencies
+        run: node common/scripts/install-run-rush.js install --no-link
+      - name: Link Dependencies
+        run: node common/scripts/install-run-rush.js link
+      - name: Check Changes
+        run: node common/scripts/install-run-rush.js change --verify --no-fetch

@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@sunnysingh/rush-sandbox-thor",
+      "comment": "New Package",
+      "type": "major"
+    }
+  ],
+  "packageName": "@sunnysingh/rush-sandbox-thor"
+}
