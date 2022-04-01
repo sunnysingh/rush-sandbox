@@ -1,3 +1,3 @@
 module.exports = function odin() {
-  console.log("odin says hello again");
+  console.log("odin v1 says hello");
 };
