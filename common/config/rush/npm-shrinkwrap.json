@@ -1,16 +1,5 @@
 {
   "name": "rush-common",
   "version": "0.0.0",
-  "lockfileVersion": 1,
-  "requires": true,
-  "dependencies": {
-    "@rush-temp/rush-sandbox-one": {
-      "version": "file:projects/rush-sandbox-one.tgz",
-      "integrity": "sha512-b3AeT0ZeDTFWxyl3qwhqRnPqdRJtQ3ekbseF0LzzoOU/ok0ocIgO9agURhTqzuDDYmOvNYrtdGZrF7bneSnESg=="
-    },
-    "@rush-temp/rush-sandbox-two": {
-      "version": "file:projects/rush-sandbox-two.tgz",
-      "integrity": "sha512-yga2dgaFAy4RRhakJvEAqaoOsc6Jlhn8VtTRXJYUbZMrXhBGOC51buf6SlWSd7CkTV1FvAsJ49SmVxjD9ShPkw=="
-    }
-  }
+  "lockfileVersion": 1
 }
