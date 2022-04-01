@@ -26,5 +26,14 @@
     "postRushBuild": []
   },
   "telemetryEnabled": false,
-  "projects": []
+  "projects": [
+    {
+      "packageName": "@sunnysingh/rush-sandbox-one",
+      "projectFolder": "packages/one"
+    },
+    {
+      "packageName": "@sunnysingh/rush-sandbox-two",
+      "projectFolder": "packages/two"
+    }
+  ]
 }
