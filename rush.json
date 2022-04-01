@@ -30,7 +30,6 @@
     {
       "packageName": "@rush-sandbox/odin",
       "projectFolder": "packages/odin",
-      "versionPolicyName": "odin",
       "shouldPublish": true
     },
     {
