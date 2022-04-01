@@ -21,4 +21,4 @@ jobs:
       - name: Link Dependencies
         run: node common/scripts/install-run-rush.js link
       - name: Check Changes
-        run: node common/scripts/install-run-rush.js change --verify
+        run: node common/scripts/install-run-rush.js change --verify --no-fetch
