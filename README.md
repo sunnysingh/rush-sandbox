@@ -8,6 +8,18 @@ This is an example monorepo setup with [Rush](https://rushjs.io/).
 
 The purpose of this `rush-sandbox` repository is to provide a place to test out monorepo workflows and setups.
 
+## Setup
+
+If you have [NVM](https://nvm.sh/):
+
+1. `nvm use`
+2. `npm install --global @microsoft/rush`
+3. `rush update`
+
+If you want to get packages to publish via GitHub Actions, add an `NPM_PUBLISH_TOKEN` repository secret which refers to an [NPM Access Token](https://docs.npmjs.com/creating-and-viewing-access-tokens).
+
+Note that pull requests use the [test workflow](.github/workflows/test.yml) and merges to `main` or `next/**` use the [publish workflow](.github/workflows/publish.yml).
+
 ## Use Cases
 
 Here are the use cases demonstrated by `rush-sandbox`.
