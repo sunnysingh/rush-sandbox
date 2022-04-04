@@ -2,6 +2,18 @@
   "name": "@rush-sandbox/thor",
   "entries": [
     {
+      "version": "2.1.0",
+      "tag": "@rush-sandbox/thor_v2.1.0",
+      "date": "Mon, 04 Apr 2022 16:29:48 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Thor Next v2"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@rush-sandbox/thor_v1.0.1",
       "date": "Fri, 01 Apr 2022 18:00:52 GMT",
