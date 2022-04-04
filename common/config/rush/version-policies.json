@@ -3,5 +3,10 @@
     "policyName": "odin",
     "definitionName": "individualVersion",
     "lockedMajor": 3
+  },
+  {
+    "policyName": "thor",
+    "definitionName": "individualVersion",
+    "lockedMajor": 2
   }
 ]

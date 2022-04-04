@@ -36,6 +36,7 @@
     {
       "packageName": "@rush-sandbox/thor",
       "projectFolder": "packages/thor",
+      "versionPolicyName": "thor",
       "shouldPublish": true
     }
   ]
