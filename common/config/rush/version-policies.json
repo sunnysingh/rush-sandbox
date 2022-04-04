@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "policyName": "odin",
+    "definitionName": "individualVersion",
+    "lockedMajor": 3
+  }
+]

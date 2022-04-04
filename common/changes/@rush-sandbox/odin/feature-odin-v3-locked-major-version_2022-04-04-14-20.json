@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-sandbox/odin",
+      "comment": "Test v3 locked version",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@rush-sandbox/odin"
+}
