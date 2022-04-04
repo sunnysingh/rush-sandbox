@@ -3,7 +3,7 @@
     {
       "packageName": "@rush-sandbox/thor",
       "comment": "Thor Next v2",
-      "type": "major"
+      "type": "minor"
     }
   ],
   "packageName": "@rush-sandbox/thor"
