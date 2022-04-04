@@ -2,6 +2,18 @@
   "name": "@rush-sandbox/odin",
   "entries": [
     {
+      "version": "3.1.0",
+      "tag": "@rush-sandbox/odin_v3.1.0",
+      "date": "Mon, 04 Apr 2022 14:23:05 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Test v3 locked version"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.3.0",
       "tag": "@rush-sandbox/odin_v2.3.0",
       "date": "Fri, 01 Apr 2022 20:29:40 GMT",
